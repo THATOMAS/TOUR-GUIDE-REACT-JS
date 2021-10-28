@@ -1,13 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/flight.png");
+  background-repeat: no-repeat;
+  background-size: 10pc;
+  background-position: right bottom;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  background: rgba(73, 180, 184, 0.138);
+  width: 60vw;
+  height: 90vh;
+  border-radius: 7px;
 }
